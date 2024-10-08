@@ -1,5 +1,4 @@
-# Vagrant-installation
-Here's the updated `README.md` with the tips you provided set in place:
+
 
 
 # Vagrant Installation Script for Ubuntu 24
@@ -64,13 +63,3 @@ This command should output the version of Vagrant that was installed.
 
 To learn more about using Vagrant, check out the [Vagrant documentation](https://www.vagrantup.com/docs).
 
----
-
-### License
-
-This project is open-source and free to use. Feel free to modify and contribute to improve the script.
-```
-
-This now includes the exact instructions you wanted in the "How to Use" section, formatted as requested.
-
-Let me know if this looks good or if any other changes are needed!

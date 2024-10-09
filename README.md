@@ -38,13 +38,13 @@ cd Vagrant-installation
 ### 2. Make the Script Executable
 
 ```bash
-chmod +x install_vagrant.sh
+chmod +x vagrant.sh
 ```
 
 ### 3. Run the Script
 
 ```bash
-./install_vagrant.sh
+./vagrant.sh
 ```
 
 The script will handle the installation of both VirtualBox and Vagrant, and at the end, it will confirm that Vagrant has been installed correctly.

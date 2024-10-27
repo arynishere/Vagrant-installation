@@ -1,7 +1,7 @@
 
 
 
-# Vagrant Installation Script for Ubuntu 24
+# Vagrant Installation Script for Ubuntu With Virtualbox 
 
 This repository provides a simple bash script to automate the installation of [Vagrant](https://www.vagrantup.com/) on Ubuntu 24. It installs both Vagrant and VirtualBox, which is a provider for running virtual machines.
 

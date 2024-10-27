@@ -33,3 +33,20 @@ echo "Verifying Vagrant installation..."
 vagrant --version
 
 echo "Vagrant installation complete!"
+
+echo " install vritual box ..."
+
+sleep 3
+
+
+#!/bin/bash
+
+echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt update
+sudo apt install -y virtualbox-7.0
+wget -q https://download.virtualbox.org/virtualbox/7.0.8/Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack
+sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack
+rm Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack
+
